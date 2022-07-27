@@ -56,12 +56,18 @@
 
 
     <div class="scroll-up-button" style="position: fixed;bottom: 10px;right: 10px;width: 25px;height: 25px;background-color: #09427D;">
-        <button style="background-color: transparent;height: 100%;width: 100%;color: white;text-align: center;font-size: 1.2em;padding: 0px;margin: 0px;display: flex;align-items: center;justify-content: center;">
+        <button style="background-color: transparent;height: 100%;width: 100%;color: white;text-align: center;font-size: 1.2em;padding: 0px;margin: 0px;display: flex;align-items: center;justify-content: center;" onclick="scrolltotop()">
             <i class="fa fa-angle-up" style="padding: 0px;margin: 0px;"></i>
         </button>
     </div>
 
     <script>
+        function scrolltotop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
         window.addEventListener('scroll',()=>{
             if(window.scrollY > 120){
                 document.querySelector('.scroll-up-button').classList.add('btn-scroll-active');
