@@ -68,6 +68,26 @@
     #top-clients>h5 {
         font-size: 13px !important;
     }
+    #marketing-solution > h4{
+        font-size: 18px !important;
+    }
+    #marketing-solution > p{
+        font-size: 13px !important;
+    }
+    #award-start-campagin-banner{
+        font-size: 15px !important;
+    }
+    #award-start-campagin-banner > div{
+        width: 100vw !important;
+    }
+    #award-start-campagin-banner > div > h5{
+        font-size: 15px !important;
+    }
+    #award-start-campagin-banner > div > button{
+        font-size: 13px !important;
+        padding: 8px 2px !important;
+        border-radius: 3px !important;
+    }
 }
 
 #top-clients>h5 {
@@ -98,4 +118,60 @@
 
 #top-clients>div {
     width: 75vw;
+}
+#marketing-solution > .card-group > .card > img{
+    width: 50%;
+    margin: 0px auto;
+}
+#marketing-solution > .card-group > .card {
+    border: 0px;
+    background-color: #f5f5f5;
+}
+#marketing-solution > .card-group > .card > .card-body{
+    text-align: center;
+}
+#marketing-solution > .card-group > .card > .card-body > .card-title{
+    color:#09427D;
+    font-size: 23px;
+    font-weight: 600;
+}
+#marketing-solution > .card-group > .card > .card-body > .card-text{
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+}
+#marketing-solution > .card-group > .card > .card-footer{
+    border: 0px;
+    background-color: transparent;
+}
+#marketing-solution > .card-group > .card > .card-footer > .btn{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    margin: 0px auto;
+    text-align: center;
+}
+#marketing-solution > button{
+    transition: 1s all linear;
+}
+#marketing-solution > button:hover{
+    transform: translate(0px, -5px);
+}
+#award-start-campagin-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    /* justify-content: center; */
+}
+#award-start-campagin-banner > div{
+    display: inline;
+}
+#award-start-campagin-banner > div  > h5{
+    /* width: 80%; */
+    font-size: 30px;
+}
+
+#award-start-campagin-banner > div > button{
+    display: inline;
 }
