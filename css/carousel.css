@@ -1,80 +1,101 @@
-.carousel-infulencer{
-    width:100%;
+.carousel-infulencer {
+    width: 100%;
     display: flex;
     align-items: center;
     height: 100%;
     /* justify-content: flex-end; */
     overflow-x: scroll;
 }
+
 .carousel-infulencer::-webkit-scrollbar {
     display: none;
 }
-.carousel-item-box-infulencer{
+
+.carousel-item-box-infulencer {
     display: inline;
     margin: 0px 10px;
 }
-.carousel-item-image-infulencer{
-    width:34%;
+
+.carousel-item-image-infulencer {
+    width: 34%;
     height: 50vh;
     display: flex;
     align-items: center;
 }
-.carousel-item-image-infulencer > img{
+
+.carousel-item-image-infulencer>img {
     display: inline;
     /* height: 100%; */
     width: 212.2px;
     border-radius: 10px;
     /* width: 50%; */
 }
-.home-text{
+
+.home-text {
     padding-left: 100px;
 }
-@media screen and (max-width: 768px){
-    .carousel-item-image-infulencer{
+
+@media screen and (max-width: 768px) {
+    .carousel-item-image-infulencer {
         height: 30vh;
     }
-    .home-text{
+
+    .carousel-item-image-infulencer>img {
+        height: 100%;
+        width: fit-content;
+    }
+
+    .home-text {
         padding-left: 5px;
     }
-    #top-clients > div{
+
+    #top-clients>div {
         min-width: 100vw;
     }
-    .company-cont > img{
+
+    .company-cont>img {
         height: 2vh;
     }
-    .company-cont{
+
+    .company-cont {
         width: 50%;
     }
-    .home-text > h4{
+
+    .home-text>h4 {
         padding-left: 10px;
     }
-    #top-clints > h5{
-        font-size: 13px;
+
+    #top-clients>h5 {
+        font-size: 13px !important;
     }
 }
-#top-clients > h5{
+
+#top-clients>h5 {
     font-size: 23px;
 }
-.top-companies-cont{
+
+.top-companies-cont {
     display: flex;
     align-items: center;
     height: 100%;
     width: 100%;
     overflow-x: scroll;
 }
+
 .top-companies-cont::-webkit-scrollbar {
     display: none;
 }
-.company-cont{
-    display:inline;
-    margin:0px 1.8em;
+
+.company-cont {
+    display: inline;
+    margin: 0px 1.8em;
     width: 12%;
 }
 
-.company-cont > img{
+.company-cont>img {
     height: 6vh;
 }
-#top-clients > div{
+
+#top-clients>div {
     width: 75vw;
 }
-
