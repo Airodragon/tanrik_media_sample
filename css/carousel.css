@@ -68,25 +68,46 @@
     #top-clients>h5 {
         font-size: 13px !important;
     }
-    #marketing-solution > h4{
+
+    #marketing-solution>h4 {
         font-size: 18px !important;
     }
-    #marketing-solution > p{
+
+    #marketing-solution>p {
         font-size: 13px !important;
     }
-    #award-start-campagin-banner{
+
+    #award-start-campagin-banner {
         font-size: 15px !important;
     }
-    #award-start-campagin-banner > div{
+
+    #award-start-campagin-banner>div {
         width: 100vw !important;
     }
-    #award-start-campagin-banner > div > h5{
+
+    #award-start-campagin-banner>div>h5 {
         font-size: 15px !important;
+        padding-left: 10px !important;
     }
-    #award-start-campagin-banner > div > button{
+
+    #award-start-campagin-banner>div>button {
         font-size: 13px !important;
         padding: 8px 2px !important;
         border-radius: 3px !important;
+    }
+
+    #no-bluff>p {
+        padding: 0px 10px !important;
+    }
+    #no-bluff > div{
+        margin: 0px 0px !important;
+        padding: 0px !important;
+    }
+    #no-bluff > div >div{
+        margin: 5px 0px !important;
+    }
+    .xyz > p{
+        padding: 0.5em 0px !important;
     }
 }
 
@@ -119,59 +140,128 @@
 #top-clients>div {
     width: 75vw;
 }
-#marketing-solution > .card-group > .card > img{
+
+#marketing-solution>.card-group>.card>img {
     width: 50%;
     margin: 0px auto;
 }
-#marketing-solution > .card-group > .card {
+
+#marketing-solution>.card-group>.card {
     border: 0px;
     background-color: #f5f5f5;
 }
-#marketing-solution > .card-group > .card > .card-body{
+
+#marketing-solution>.card-group>.card>.card-body {
     text-align: center;
 }
-#marketing-solution > .card-group > .card > .card-body > .card-title{
-    color:#09427D;
+
+#marketing-solution>.card-group>.card>.card-body>.card-title {
+    color: #09427D;
     font-size: 23px;
     font-weight: 600;
 }
-#marketing-solution > .card-group > .card > .card-body > .card-text{
+
+#marketing-solution>.card-group>.card>.card-body>.card-text {
     color: #777;
     font-size: 16px;
     font-weight: 400;
 }
-#marketing-solution > .card-group > .card > .card-footer{
+
+#marketing-solution>.card-group>.card>.card-footer {
     border: 0px;
     background-color: transparent;
 }
-#marketing-solution > .card-group > .card > .card-footer > .btn{
+
+#marketing-solution>.card-group>.card>.card-footer>.btn {
     display: block;
     padding: 10px;
     font-size: 17px;
     margin: 0px auto;
     text-align: center;
 }
-#marketing-solution > button{
+
+#marketing-solution>button {
     transition: 1s all linear;
 }
-#marketing-solution > button:hover{
+
+#marketing-solution>button:hover {
     transform: translate(0px, -5px);
 }
-#award-start-campagin-banner{
+
+#award-start-campagin-banner {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 0px;
     /* justify-content: center; */
 }
-#award-start-campagin-banner > div{
+
+#award-start-campagin-banner>div {
     display: inline;
 }
-#award-start-campagin-banner > div  > h5{
+
+#award-start-campagin-banner>div>h5 {
     /* width: 80%; */
     font-size: 30px;
 }
 
-#award-start-campagin-banner > div > button{
+#award-start-campagin-banner>div>button {
     display: inline;
+}
+
+#no-bluff>p {
+    padding: 10px 25%;
+    font-weight: 500;
+}
+
+.like-watch {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.watch {
+    height: 100%;
+    width: 50%;
+}
+
+.like {
+    height: 100%;
+    width: 50%;
+}
+
+.like-watch>div {
+    /* margin: 0px auto; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.like-watch > div > p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.3em 0px;
+}
+
+.like-watch > div > img {
+    width: 30%;
+    margin: 0px auto;
+}
+.xyz > p{
+    color: #777;
+    font-size: 16px;
+    padding: 0.5em 0.8em;
+
+}
+.xyz > .button{
+    text-align: center;
+    margin: 0.5em auto;
+}
+.xyz > .button > button{
+    font-size: 18px;
+    font-weight: 500;
+}
+#no-bluff > div{
+    margin: 0px 13%;
 }
