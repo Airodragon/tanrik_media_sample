@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 .nav-btn{
     background-color: #09427D;
     color: white;
     font-weight: 700;
     transform: scale(1.1);
-    padding: 0.5em 1em !important;
 }
 
 nav{
@@ -18,26 +16,6 @@ nav{
     color: #094285;
     font-weight: 300 !important;
 }
-
-.dropdown-toggle::after {
-    display: none;
-}
-@media screen and (max-width:768px){
-    .nav-link{
-        background-color: #F9F9F9;
-        padding: 0.7em 0.6em;
-        border-bottom: 0.1em solid #ececec;
-        width: 100%;
-    }
-    .nav-btn{
-        margin-top: 0.7em;
-        width: 20%;
-    }
-    nav{
-        padding: 0.5em 0.5em !important;
-    }
-}
-
 @media screen and (min-width:768px) {
     .nav-link:hover,
     .dropdown-item:hover{
