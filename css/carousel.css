@@ -276,6 +276,15 @@
 }
 @media screen and (max-width: 768px) {
     .influe-img{
-        width: 100%;
+        width: 99% !important;
     }
+    .accordion{
+        width: 100% !important;
+    }
+    .accordion *{
+        font-size: 16px !important;
+    }
+}
+.accordion{
+    width: 70%;
 }

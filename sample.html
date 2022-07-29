@@ -31,10 +31,12 @@
         #home>.row>* {
             padding-right: 0px;
         }
-        .btn-scroll-active{
+
+        .btn-scroll-active {
             display: block;
         }
-        .btn-scroll-inactive{
+
+        .btn-scroll-inactive {
             display: none;
         }
     </style>
@@ -55,8 +57,11 @@
     </div>
 
 
-    <div class="scroll-up-button" style="position: fixed;bottom: 10px;right: 10px;width: 25px;height: 25px;background-color: #09427D;">
-        <button style="background-color: transparent;height: 100%;width: 100%;color: white;text-align: center;font-size: 1.2em;padding: 0px;margin: 0px;display: flex;align-items: center;justify-content: center;" onclick="scrolltotop()">
+    <div class="scroll-up-button"
+        style="position: fixed;bottom: 10px;right: 10px;width: 25px;height: 25px;background-color: #09427D;">
+        <button
+            style="background-color: transparent;height: 100%;width: 100%;color: white;text-align: center;font-size: 1.2em;padding: 0px;margin: 0px;display: flex;align-items: center;justify-content: center;"
+            onclick="scrolltotop()">
             <i class="fa fa-angle-up" style="padding: 0px;margin: 0px;"></i>
         </button>
     </div>
@@ -68,15 +73,15 @@
                 behavior: 'smooth'
             });
         }
-        window.addEventListener('scroll',()=>{
-            if(window.scrollY > 120){
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 120) {
                 document.querySelector('.scroll-up-button').classList.add('btn-scroll-active');
                 document.querySelector('.scroll-up-button').classList.remove('btn-scroll-inactive');
                 document.querySelector('.navbar').style.backgroundColor = '#09427D';
                 document.querySelector('.navbar').style.position = 'fixed';
                 document.querySelector('.navbar').style.top = '0px';
                 document.querySelector('.navbar').style.width = '100%';
-            }else{
+            } else {
                 document.querySelector('.scroll-up-button').classList.add('btn-scroll-inactive');
                 document.querySelector('.scroll-up-button').classList.remove('btn-scroll-active');
                 document.querySelector('.navbar').style.backgroundColor = '#333';
@@ -1075,202 +1080,220 @@
 
         <div class="row row-cols-1 row-cols-lg-3  row-cols-md-2 g-4">
             <div class="col">
-                <div class="card py-lg-3 py-md-3 py-0" style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
-                <div class="image-cont" style="min-height: 100px;margin:0px auto">
-                    <img src="https://confluencr.com/wp-content/uploads/2022/06/png-clipart-meesho-whatsapp-google-play-whatsapp-text-logo-removebg-preview.png" class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 100px">
-                </div>
-                <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
-                <div class="card-body xyz" style="padding-top: 0px;">
-                    <div class="like-watch">
-                        <div class="watch" style="border-right: 1px solid #999;">
-                            <p>Total Views</p>
-                            <img src="./assets/img/youtube-brands.svg" alt=""> 
-                            <p>1.2M</p>
+                <div class="card py-lg-3 py-md-3 py-0"
+                    style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
+                    <div class="image-cont" style="min-height: 100px;margin:0px auto">
+                        <img src="https://confluencr.com/wp-content/uploads/2022/06/png-clipart-meesho-whatsapp-google-play-whatsapp-text-logo-removebg-preview.png"
+                            class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 100px">
+                    </div>
+                    <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
+                    <div class="card-body xyz" style="padding-top: 0px;">
+                        <div class="like-watch">
+                            <div class="watch" style="border-right: 1px solid #999;">
+                                <p>Total Views</p>
+                                <img src="./assets/img/youtube-brands.svg" alt="">
+                                <p>1.2M</p>
+                            </div>
+                            <div class="like">
+                                <p>Total Likes</p>
+                                <img src="./assets/img/thumbs-up-solid.svg" alt="">
+                                <p>100k</p>
+                            </div>
                         </div>
-                        <div class="like" >
-                            <p>Total Likes</p>
-                            <img src="./assets/img/thumbs-up-solid.svg" alt="">
-                            <p>100k</p>
+                        <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
+                        <p class="card-text text-center">Displayed the simple and convenient shopping experience of
+                            running a business on India's largest resale platform.</p>
+                        <div class="button">
+                            <button class="btn btn-warning">
+                                View More
+                            </button>
                         </div>
                     </div>
-                    <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
-                  <p class="card-text text-center">Displayed the simple and convenient shopping experience of running a business on India's largest resale platform.</p>
-                  <div class="button">
-                    <button class="btn btn-warning">
-                        View More 
-                    </button>
-                  </div>
                 </div>
-              </div>
             </div>
-           
 
-            
-            <div class="col">
-              <div class="card py-lg-3 py-md-3 py-0" style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
-                <div class="image-cont" style="min-height: 100px;margin:0px auto">
-                    <img src="https://confluencr.com/wp-content/uploads/2022/06/images__1_-removebg-preview-1.png" class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 100px;">
 
-                </div>
-                <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
-                <div class="card-body xyz" style="padding-top: 0px;">
-                    <div class="like-watch">
-                        <div class="watch" style="border-right: 1px solid #999;">
-                            <p>Total Views</p>
-                            <img src="./assets/img/youtube-brands.svg" alt=""> 
-                            <p>1.2M</p>
-                        </div>
-                        <div class="like" >
-                            <p>Total Likes</p>
-                            <img src="./assets/img/thumbs-up-solid.svg" alt="">
-                            <p>100k</p>
-                        </div>
-                    </div>
-                    <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
-                  <p class="card-text text-center">Displayed the simple and convenient shopping experience of running a business on India's largest resale platform.</p>
-                  <div class="button">
-                    <button class="btn btn-warning">
-                        View More 
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-           
-           
-            <div class="col">
-              <div class="card py-lg-3 py-md-3 py-0" style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
-                <div class="image-cont" style="min-height: 100px;margin:0px auto">
-                    <img src="https://confluencr.com/wp-content/uploads/2022/06/UPSTOX-LOGO-1.png" class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 200px;">
-
-                </div>
-                <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
-                <div class="card-body xyz" style="padding-top: 0px;">
-                    <div class="like-watch">
-                        <div class="watch" style="border-right: 1px solid #999;">
-                            <p>Total Views</p>
-                            <img src="./assets/img/youtube-brands.svg" alt=""> 
-                            <p>1.2M</p>
-                        </div>
-                        <div class="like" >
-                            <p>Total Likes</p>
-                            <img src="./assets/img/thumbs-up-solid.svg" alt="">
-                            <p>100k</p>
-                        </div>
-                    </div>
-                    <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
-                  <p class="card-text text-center">Displayed the simple and convenient shopping experience of running a business on India's largest resale platform.</p>
-                  <div class="button">
-                    <button class="btn btn-warning">
-                        View More 
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-           
-           
 
             <div class="col">
-                <div class="card py-lg-3 py-md-3 py-0" style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
-                <div class="image-cont" style="min-height: 100px;margin:0px auto">
-                    <img src="https://confluencr.com/wp-content/uploads/2022/06/coinswitch-kuber-original-1b9e4a324b8893c2df0104fd06a10861.png" class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 200px">
-                </div>
-                <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
-                <div class="card-body xyz" style="padding-top: 0px;">
-                    <div class="like-watch">
-                        <div class="watch" style="border-right: 1px solid #999;">
-                            <p>Total Views</p>
-                            <img src="./assets/img/youtube-brands.svg" alt=""> 
-                            <p>1.2M</p>
+                <div class="card py-lg-3 py-md-3 py-0"
+                    style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
+                    <div class="image-cont" style="min-height: 100px;margin:0px auto">
+                        <img src="https://confluencr.com/wp-content/uploads/2022/06/images__1_-removebg-preview-1.png"
+                            class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 100px;">
+
+                    </div>
+                    <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
+                    <div class="card-body xyz" style="padding-top: 0px;">
+                        <div class="like-watch">
+                            <div class="watch" style="border-right: 1px solid #999;">
+                                <p>Total Views</p>
+                                <img src="./assets/img/youtube-brands.svg" alt="">
+                                <p>1.2M</p>
+                            </div>
+                            <div class="like">
+                                <p>Total Likes</p>
+                                <img src="./assets/img/thumbs-up-solid.svg" alt="">
+                                <p>100k</p>
+                            </div>
                         </div>
-                        <div class="like" >
-                            <p>Total Likes</p>
-                            <img src="./assets/img/thumbs-up-solid.svg" alt="">
-                            <p>100k</p>
+                        <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
+                        <p class="card-text text-center">Displayed the simple and convenient shopping experience of
+                            running a business on India's largest resale platform.</p>
+                        <div class="button">
+                            <button class="btn btn-warning">
+                                View More
+                            </button>
                         </div>
                     </div>
-                    <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
-                  <p class="card-text text-center">Displayed the simple and convenient shopping experience of running a business on India's largest resale platform.</p>
-                  <div class="button">
-                    <button class="btn btn-warning">
-                        View More 
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
 
-            
+                </div>
+            </div>
+
+
             <div class="col">
-              <div class="card py-lg-3 py-md-3 py-0" style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
-                <div class="image-cont" style="min-height: 100px;margin:0px auto">
-                    <img src="https://confluencr.com/wp-content/uploads/2022/06/download__5_-removebg-preview-1.png" class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 150px;">
+                <div class="card py-lg-3 py-md-3 py-0"
+                    style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
+                    <div class="image-cont" style="min-height: 100px;margin:0px auto">
+                        <img src="https://confluencr.com/wp-content/uploads/2022/06/UPSTOX-LOGO-1.png"
+                            class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 200px;">
 
-                </div>
-                <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
-                <div class="card-body xyz" style="padding-top: 0px;">
-                    <div class="like-watch">
-                        <div class="watch" style="border-right: 1px solid #999;">
-                            <p>Total Views</p>
-                            <img src="./assets/img/youtube-brands.svg" alt=""> 
-                            <p>1.2M</p>
+                    </div>
+                    <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
+                    <div class="card-body xyz" style="padding-top: 0px;">
+                        <div class="like-watch">
+                            <div class="watch" style="border-right: 1px solid #999;">
+                                <p>Total Views</p>
+                                <img src="./assets/img/youtube-brands.svg" alt="">
+                                <p>1.2M</p>
+                            </div>
+                            <div class="like">
+                                <p>Total Likes</p>
+                                <img src="./assets/img/thumbs-up-solid.svg" alt="">
+                                <p>100k</p>
+                            </div>
                         </div>
-                        <div class="like" >
-                            <p>Total Likes</p>
-                            <img src="./assets/img/thumbs-up-solid.svg" alt="">
-                            <p>100k</p>
+                        <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
+                        <p class="card-text text-center">Displayed the simple and convenient shopping experience of
+                            running a business on India's largest resale platform.</p>
+                        <div class="button">
+                            <button class="btn btn-warning">
+                                View More
+                            </button>
                         </div>
                     </div>
-                    <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
-                  <p class="card-text text-center">Displayed the simple and convenient shopping experience of running a business on India's largest resale platform.</p>
-                  <div class="button">
-                    <button class="btn btn-warning">
-                        View More 
-                    </button>
-                  </div>
+
                 </div>
-                
-              </div>
             </div>
-           
-           
+
+
+
             <div class="col">
-              <div class="card py-lg-3 py-md-3 py-0" style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
-                <div class="image-cont" style="min-height: 100px;margin:0px auto">
-                    <img src="https://confluencr.com/wp-content/uploads/2022/06/UR6uCXA4_400x400-removebg-preview-1.png" class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 150px;">
-
-                </div>
-                <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
-                <div class="card-body xyz" style="padding-top: 0px;">
-                    <div class="like-watch">
-                        <div class="watch" style="border-right: 1px solid #999;">
-                            <p>Total Views</p>
-                            <img src="./assets/img/youtube-brands.svg" alt=""> 
-                            <p>1.2M</p>
+                <div class="card py-lg-3 py-md-3 py-0"
+                    style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
+                    <div class="image-cont" style="min-height: 100px;margin:0px auto">
+                        <img src="https://confluencr.com/wp-content/uploads/2022/06/coinswitch-kuber-original-1b9e4a324b8893c2df0104fd06a10861.png"
+                            class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 200px">
+                    </div>
+                    <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
+                    <div class="card-body xyz" style="padding-top: 0px;">
+                        <div class="like-watch">
+                            <div class="watch" style="border-right: 1px solid #999;">
+                                <p>Total Views</p>
+                                <img src="./assets/img/youtube-brands.svg" alt="">
+                                <p>1.2M</p>
+                            </div>
+                            <div class="like">
+                                <p>Total Likes</p>
+                                <img src="./assets/img/thumbs-up-solid.svg" alt="">
+                                <p>100k</p>
+                            </div>
                         </div>
-                        <div class="like" >
-                            <p>Total Likes</p>
-                            <img src="./assets/img/thumbs-up-solid.svg" alt="">
-                            <p>100k</p>
+                        <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
+                        <p class="card-text text-center">Displayed the simple and convenient shopping experience of
+                            running a business on India's largest resale platform.</p>
+                        <div class="button">
+                            <button class="btn btn-warning">
+                                View More
+                            </button>
                         </div>
                     </div>
-                    <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
-                  <p class="card-text text-center">Displayed the simple and convenient shopping experience of running a business on India's largest resale platform.</p>
-                  <div class="button">
-                    <button class="btn btn-warning">
-                        View More 
-                    </button>
-                  </div>
                 </div>
-                
-              </div>
             </div>
-           
-           
+
+
+
+            <div class="col">
+                <div class="card py-lg-3 py-md-3 py-0"
+                    style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
+                    <div class="image-cont" style="min-height: 100px;margin:0px auto">
+                        <img src="https://confluencr.com/wp-content/uploads/2022/06/download__5_-removebg-preview-1.png"
+                            class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 150px;">
+
+                    </div>
+                    <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
+                    <div class="card-body xyz" style="padding-top: 0px;">
+                        <div class="like-watch">
+                            <div class="watch" style="border-right: 1px solid #999;">
+                                <p>Total Views</p>
+                                <img src="./assets/img/youtube-brands.svg" alt="">
+                                <p>1.2M</p>
+                            </div>
+                            <div class="like">
+                                <p>Total Likes</p>
+                                <img src="./assets/img/thumbs-up-solid.svg" alt="">
+                                <p>100k</p>
+                            </div>
+                        </div>
+                        <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
+                        <p class="card-text text-center">Displayed the simple and convenient shopping experience of
+                            running a business on India's largest resale platform.</p>
+                        <div class="button">
+                            <button class="btn btn-warning">
+                                View More
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card py-lg-3 py-md-3 py-0"
+                    style="background-color: #F3F9FF;border: 1px solid #09427D;border-radius: 10px;">
+                    <div class="image-cont" style="min-height: 100px;margin:0px auto">
+                        <img src="https://confluencr.com/wp-content/uploads/2022/06/UR6uCXA4_400x400-removebg-preview-1.png"
+                            class="card-img-top img-fluid mx-auto mt-3" alt="..." style="width: 150px;">
+
+                    </div>
+                    <hr width="80%" style="margin: 10px auto;height: 3px;margin-bottom: 0px;">
+                    <div class="card-body xyz" style="padding-top: 0px;">
+                        <div class="like-watch">
+                            <div class="watch" style="border-right: 1px solid #999;">
+                                <p>Total Views</p>
+                                <img src="./assets/img/youtube-brands.svg" alt="">
+                                <p>1.2M</p>
+                            </div>
+                            <div class="like">
+                                <p>Total Likes</p>
+                                <img src="./assets/img/thumbs-up-solid.svg" alt="">
+                                <p>100k</p>
+                            </div>
+                        </div>
+                        <hr width="80%" style="margin: 0px auto;height: 3px;margin-bottom: 0px;">
+                        <p class="card-text text-center">Displayed the simple and convenient shopping experience of
+                            running a business on India's largest resale platform.</p>
+                        <div class="button">
+                            <button class="btn btn-warning">
+                                View More
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
 
 
         </div>
@@ -1300,19 +1323,180 @@
 
         <div class="row" style="--bs-gutter-x: 0px;">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="https://confluencr.com/wp-content/uploads/2022/06/1-copy-1-768x1282.jpg" alt=""  class="float-lg-end float-md-end d-sm-block d-block mx-auto influe-img">
+                <img src="https://confluencr.com/wp-content/uploads/2022/06/1-copy-1-768x1282.jpg" alt=""
+                    class="float-lg-end float-md-end d-sm-block d-block mx-auto influe-img">
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="conflue-how-scale-1">
+                    <h4 class="fs-4 text-lg-start text-md-start text-center  pt-3 px-5"
+                        style="font-weight: 600;color:#09427D;letter-spacing: 0.1em;">
+                        Right Influencer + Relatable Content = Results!
+                    </h4>
+                    <p class=" text-lg-start text-md-start  pt-2 px-5"
+                        style="color: #777;text-align: justify;font-size: 18px;">
+                        We have a <strong>decade full of global experience</strong> in creation, distribution and
+                        monetisation of
+                        content. We were leveraging content, well before the term 'influencer marketing' was even
+                        coined!
+                    </p>
+                    <p class="px-5 pt-0">
+                        <img src="./assets/img/underline.png" alt="" class="mx-auto d-block" style="width: 90%;">
+                    </p>
+                </div>
+                <div class="conflue-how-scale-2">
+                    <h4 class="fs-4 text-lg-start text-md-start text-center  pt-3 px-5"
+                        style="font-weight: 600;color:#09427D;letter-spacing: 0.1em;">
+                        70+ Members Strong Team
+                    </h4>
+                    <p class=" text-lg-start text-md-start  pt-2 px-5"
+                        style="color: #777;text-align: justify;font-size: 18px;">
+                        To conquer the digital space, you need an army of talent at your disposal. We are a
+                        multi-faceted team of digital marketers, content creators, design mavericks, video editors, and
+                        operational ninjas.
 
+
+                    </p>
+                    <p class="px-5 pt-0">
+                        <img src="./assets/img/underline.png" alt="" class="mx-auto d-block" style="width: 90%;">
+                    </p>
+                </div>
+                <div class="conflue-how-scale-3">
+                    <h4 class="fs-4 text-lg-start text-md-start text-center  pt-3 px-5"
+                        style="font-weight: 600;color:#09427D;letter-spacing: 0.1em;">
+                        Itch To Measure & Analyse Data
+                    </h4>
+                    <p class=" text-lg-start text-md-start pt-2 px-5"
+                        style="color: #777;text-align: justify;font-size: 18px;">
+                        The digital landscape changes faster than the night, and newer formats keep getting created.
+                        Without measuring the right outcomes there's no way you can tame this horse. We live for data.
+                    </p>
+                    <p class="px-5 pt-lg-0">
+                        <img src="./assets/img/underline.png" alt="" class="mx-auto d-block" style="width: 90%;">
+                    </p>
+                </div>
             </div>
         </div>
-
-
 
     </section>
 
 
+    <section id="theloveweget">
+        <h4 class="fs-1 text-center pt-lg-5 pt-md-4 pt-3" style="font-weight: 600;color:#09427D;">
+            #TheLoveWeGet
+        </h4>
+        <p style="color: #777;text-align: center;font-size: 20px;">
+            To deliver campaigns at scale, it takes more than technology and content - it takes grit. Our team strives
+            above and beyond to win for you.
+        </p>
+        <div class="row" style="--bs-gutter-x: 0px;">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="https://confluencr.com/wp-content/uploads/2022/06/Asset-1@2x-8-1.png" alt=""
+                    class="float-lg-end float-md-end d-sm-block d-block mx-auto influe-img" style="width: 75%;">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="https://confluencr.com/wp-content/uploads/2022/06/Asset-2@4x-8.png" alt="" style="width:35%"
+                    class="mx-auto d-block pt-5">
+                <p style="font-size: 20px;color: #777;text-align: center;"
+                    class="px-lg-5 px-md-5 px-2 pt-5 mx-lg-3 mx-md-3 mx-2">
+                    At the Influencer Awards 2021 hosted by Entrepreneur Media Group, Confluencr was awarded the <a
+                        href="#" style="font-weight: 700;color: #09427D;"> Best
+                        Large Influencer Marketing Company </a> by the esteemed jury. Having driven lucrative influencer
+                    marketing campaigns for 400+ major brands across multiple verticals has honed our skills and
+                    standards in influencer marketing. With fresher outlooks, and disruptive plans in the works, brands
+                    are all strapped in for gripping campaigns.
+                </p>
+            </div>
+        </div>
+    </section>
+    </section id="frequently_asked_questions mt-3">
+    <h4 class="fs-1 text-center pt-lg-5 pt-md-4 pt-3" style="font-weight: 600;color:#09427D;">
+        Frequently Asked Questions
+    </h4>
 
+    <div class="accordion accordion-flush  mx-auto mt-lg-5 mt-md-4 mt-3" id="accordionFlushExample"
+        style="box-shadow: 0px 0px 5px 0px #999;">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                    style="color: #777;font-weight: 600;font-size: 20px;">
+                    Which social media channels do you work on?
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="font-size: 18px;color: #777;font-weight: 500;">Our 50,000+ Creator
+                    Network pans across Instagram, YouTube, Twitter, Quora and Facebook.</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                    style="color: #777;font-weight: 600;font-size: 20px;">
+                    Which industries have you worked in?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="font-size: 18px;color: #777;font-weight: 500;">We have worked with
+                    FinTech, Lifestyle, Healthcare, Education, Consumer Apps and more brands from across sectors. As a
+                    specialised Influencer Marketing Agency, we understand the nuances of multiple industry and have
+                    demonstrated success across categories.</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+                    style="color: #777;font-weight: 600;font-size: 20px;">
+                    What if we have never done this before?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="font-size: 18px;color: #777;font-weight: 500;">OWe encourage brands
+                    to experiment with low budget test campaigns before scaling influencer marketing.</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"
+                    style="color: #777;font-weight: 600;font-size: 20px;">
+                    How will the execution work?
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="font-size: 18px;color: #777;font-weight: 500;">We dedicate a team of
+                    Campaign Manager and Associates for every project – irrespective of budget. Using our in-house
+                    platform they take care of the whole campaign end-to-end.</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive"
+                    style="color: #777;font-weight: 600;font-size: 20px;">
+                    What results can we expect?
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="font-size: 18px;color: #777;font-weight: 500;">Influencer Campaigns
+                    are catalysts to growth – it drives increased organic brand search, fosters trust amongst consumers
+                    and impacts purchase decision positively.</div>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
 
 
     <!-- Bootstrap JavaScript Libraries -->
