@@ -284,7 +284,21 @@
     .accordion *{
         font-size: 16px !important;
     }
+    .footer-ul li{
+        font-size: 13px !important;
+    }
 }
 .accordion{
     width: 70%;
+}
+.accordion-item{
+    border: 0px !important;
+}
+.footer-ul i{
+    color: blue;
+}
+.footer-ul li{
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    margin: 0.5em 0px;   
 }
