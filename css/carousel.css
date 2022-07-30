@@ -112,6 +112,9 @@
     .jkl{
         text-align: justify !important;
     }
+    .br{
+        display: none;
+    }
 }
 
 #top-clients>h5 {
