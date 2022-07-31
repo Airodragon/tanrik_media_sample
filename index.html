@@ -14,6 +14,8 @@
 
     <!-- FONT AWESOME JS -->
     <script src="https://use.fontawesome.com/46bf41fdfd.js"></script>
+
+    <link rel="stylesheet" href="./css/navbar.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
@@ -53,8 +55,49 @@
 
 <body>
     <!-- HEADER SECTION -->
-    <div style="height: 100px;z-index: 99999;" class="navbar">
-    </div>
+    <nav class="navbar navbar-expand-lg" style="z-index: 1000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/Confluencr-logo-new-01.png" alt="logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 px-lg-5 py-lg-2 mb-lg-0 mx-lg-auto mx-md-auto mx-sm-1 mx-1 mhi">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Solutions
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" aria-current="page" href="#">Our Work</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="#">Resource</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="#">For Influencer</a>
+                    </li>
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <button class="btn btn-outline-primary px-lg-4 py-lg-1 mx-lg-2" style="font-size: 18px" type="submit">Contact Us</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
     <div class="scroll-up-button"
@@ -77,14 +120,29 @@
             if (window.scrollY > 120) {
                 document.querySelector('.scroll-up-button').classList.add('btn-scroll-active');
                 document.querySelector('.scroll-up-button').classList.remove('btn-scroll-inactive');
-                document.querySelector('.navbar').style.backgroundColor = '#09427D';
+                document.querySelector('.navbar').style.backgroundColor = '#fff';
                 document.querySelector('.navbar').style.position = 'fixed';
                 document.querySelector('.navbar').style.top = '0px';
                 document.querySelector('.navbar').style.width = '100%';
             } else {
                 document.querySelector('.scroll-up-button').classList.add('btn-scroll-inactive');
                 document.querySelector('.scroll-up-button').classList.remove('btn-scroll-active');
-                document.querySelector('.navbar').style.backgroundColor = '#333';
+                document.querySelector('.navbar').style.backgroundColor = '#fff';
+                document.querySelector('.navbar').style.position = 'relative';
+            }
+        });
+        window.addEventListener('load', () => {
+            if (window.scrollY > 120) {
+                document.querySelector('.scroll-up-button').classList.add('btn-scroll-active');
+                document.querySelector('.scroll-up-button').classList.remove('btn-scroll-inactive');
+                document.querySelector('.navbar').style.backgroundColor = '#fff';
+                document.querySelector('.navbar').style.position = 'fixed';
+                document.querySelector('.navbar').style.top = '0px';
+                document.querySelector('.navbar').style.width = '100%';
+            } else {
+                document.querySelector('.scroll-up-button').classList.add('btn-scroll-inactive');
+                document.querySelector('.scroll-up-button').classList.remove('btn-scroll-active');
+                document.querySelector('.navbar').style.backgroundColor = '#fff';
                 document.querySelector('.navbar').style.position = 'relative';
             }
         });
@@ -1520,7 +1578,8 @@
                         <br class="br">
 
                         We are able to considerably reduce user acquisition costs and improve user retention through our
-                        content.</p>
+                        content.
+                    </p>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -1564,13 +1623,14 @@
                         </option>
                     </select>
                     <input class="next my-lg-5 my-md-4 my-sm-2 my-1 mx-auto mx-lg-5 mx-md-5 d-block mt-2"
-                        style="background-color: #09427D;color: white;border: 0px;outline: 0px;padding: 8px 13px;" value="Submit" type="submit">
-                    
-                        <p class="alert-text px-lg-3 px-md-3 px-2" style="color: #09427D;font-weight: 600;">
-                           Please fill all the fields.
-                        </p>
+                        style="background-color: #09427D;color: white;border: 0px;outline: 0px;padding: 8px 13px;"
+                        value="Submit" type="submit">
+
+                    <p class="alert-text px-lg-3 px-md-3 px-2" style="color: #09427D;font-weight: 600;">
+                        Please fill all the fields.
+                    </p>
                     <script>
-                        document.querySelector('.next').addEventListener('click', function(e) {
+                        document.querySelector('.next').addEventListener('click', function (e) {
                             e.preventDefault();
                             var selected = document.querySelector('select[name="selected"]').value;
                             var name = document.querySelector('input[name="name"]').value;
@@ -1604,7 +1664,7 @@
                             }
                         });
                     </script>
-                        
+
                     <div class="pb-3"></div>
 
                     <div class="hidden-form">
