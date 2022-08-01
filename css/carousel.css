@@ -36,16 +36,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .tt{
-        transform: scale(0.8);
+    .carousel-item-image-infulencer {
+        height: 30vh;
     }
-    .carousel-item-image-infulencer{
-        height: 100%;
-    }
+
     .carousel-item-image-infulencer>img {
-        height: fit-content;
-        width: 200px !important;
-        /* width: fit-content; */
+        height: 100%;
+        width: fit-content;
     }
 
     .home-text {
