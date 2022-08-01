@@ -39,6 +39,9 @@
     .tt{
         transform: scale(0.8);
     }
+    .carousel-item-image-infulencer{
+        height: 100%;
+    }
     .carousel-item-image-infulencer>img {
         height: fit-content;
         width: 200px !important;
