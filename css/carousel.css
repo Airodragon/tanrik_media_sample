@@ -42,7 +42,7 @@
 
     .carousel-item-image-infulencer>img {
         height: 100%;
-        width: fit-content;
+        width: 150px;
     }
 
     .home-text {
