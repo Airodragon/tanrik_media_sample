@@ -110,13 +110,19 @@
         padding: 0.5em 0px !important;
     }
     .jkl{
-        text-align: justify !important;
+        text-align: center !important;
+        font-size: 16px !important;
     }
     .br{
-        display: none;
+        display: none !important;
+    }
+    .kinf{
+        width: 60% !important;
     }
 }
-
+.kinf{
+    width:35%;
+}
 #top-clients>h5 {
     font-size: 23px;
 }
